@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+/* other css file imports */
+@import url("sections/header.css");
+@import url("sections/showcase.css");
+@import url("sections/utilities.css");
+@import url("sections/features.css");
+/* @import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/popular.css");
+@import url("sections/trending.css");
+@import url("sections/subscribe.css");
+@import url("sections/footer.css"); */
+
+/* CSS variables for reusablity across all files (including above imported) */
+:root {
+  --jersey-15: "Jersey 15", sans-serif;
+
+  --primary-color: #ec4899;
+  --secondary-color: #121212;
+
+  --black-200: #020202;
+  --black-300: #333333;
+  --black-400: #1f1e31;
+  --black-500: #555555;
+  --gray-100: #888888;
+
+  --pink-200: #fbcfe8;
+  --pink-300: #f9a8d4;
+  --pink-400: #f472b6;
+  --pink-500: #ec4899;
+  --pink-600: #db2777;
+  --pink-700: #be185d;
+  --pink-800: #9d174d;
+  --pink-900: #831843;
+  --pink-950: #500724;
+
+  --color-white: #fff;
+  --color-creamson: #fff0de;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--jersey-15);
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
