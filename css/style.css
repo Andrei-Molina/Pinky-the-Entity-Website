@@ -5,12 +5,7 @@
 @import url("sections/showcase.css");
 @import url("sections/utilities.css");
 @import url("sections/features.css");
-/* @import url("sections/hero.css");
-@import url("sections/about.css");
-@import url("sections/popular.css");
-@import url("sections/trending.css");
-@import url("sections/subscribe.css");
-@import url("sections/footer.css"); */
+@import url("sections/characters.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -23,6 +18,7 @@
   --black-300: #333333;
   --black-400: #1f1e31;
   --black-500: #555555;
+  --black-700: #050505;
   --gray-100: #888888;
 
   --pink-200: #fbcfe8;
@@ -34,6 +30,18 @@
   --pink-800: #9d174d;
   --pink-900: #831843;
   --pink-950: #500724;
+
+  --blue-200: #bfdbfe;
+  --blue-300: #93c5fd;
+  --blue-400: #60a5fa;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
+  --blue-950: #172554;
+
+  --stone-700: #44403c;
 
   --color-white: #fff;
   --color-creamson: #fff0de;

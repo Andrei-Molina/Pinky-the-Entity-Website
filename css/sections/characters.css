@@ -1,0 +1,119 @@
+.characters img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.characters .pinky {
+    background-color: var(--pink-700);
+    color: #fff;
+}
+
+.characters .eye {
+    background-color: var(--black-700);
+    color: #fff;
+}
+
+.characters .blocky {
+    background-color: var(--blue-700);
+    color: #fff;
+}
+
+.characters .robotri {
+    background-color: var(--stone-700);
+    color: #fff;
+}
+
+.characters .hidden {
+    display: none;
+}
+
+.characters .grid {
+    grid-template-columns: 4fr 3fr;
+    
+}
+
+.ch {
+    background-color: var(--black-400);
+}
+
+.character-cards .card {
+    display: none;
+}
+
+#main1:checked ~ .character-cards .card:nth-child(1),
+#main2:checked ~ .character-cards .card:nth-child(2),
+#main3:checked ~ .character-cards .card:nth-child(3),
+#main4:checked ~ .character-cards .card:nth-child(4) {
+    display: block;
+}
+
+#villain1:checked ~ .character-cards .card:nth-child(1),
+#villain2:checked ~ .character-cards .card:nth-child(2),
+#villain3:checked ~ .character-cards .card:nth-child(3),
+#villain4:checked ~ .character-cards .card:nth-child(4),
+#villain5:checked ~ .character-cards .card:nth-child(5),
+#villain6:checked ~ .character-cards .card:nth-child(6),
+#villain7:checked ~ .character-cards .card:nth-child(7) {
+    display: block;
+}
+
+#main1:checked ~ .controls label[for="main1"],
+#main2:checked ~ .controls label[for="main2"],
+#main3:checked ~ .controls label[for="main3"],
+#main4:checked ~ .controls label[for="main4"] {
+    background-color: var(--pink-300);
+    border: 2px solid var(--pink-400);
+    box-shadow: 0 0 0 2px var(--pink-200);
+}
+
+#villain1:checked ~ .controls label[for="villain1"],
+#villain2:checked ~ .controls label[for="villain2"],
+#villain3:checked ~ .controls label[for="villain3"],
+#villain4:checked ~ .controls label[for="villain4"],
+#villain5:checked ~ .controls label[for="villain5"],
+#villain6:checked ~ .controls label[for="villain6"],
+#villain7:checked ~ .controls label[for="villain7"] {
+    background-color: var(--pink-300);
+    border: 2px solid var(--pink-400);
+    box-shadow: 0 0 0 2px var(--pink-200);
+}
+
+.characters .btn.active {
+    background-color: var(--pink-500);
+    color: #fff;
+    border: 2px solid var(--pink-400);
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.controls label {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff;
+    background-color: var(--pink-700);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.characters input[type="radio"] {
+    display: none;
+}
+
+.characters img {
+    max-width: 100px;
+    width: 50%;
+}
+
+.characters .name {
+    text-align: center;
+    border-bottom: 1px solid var(--pink-200);
+    width: 50%;
+    margin: 0 auto;
+}

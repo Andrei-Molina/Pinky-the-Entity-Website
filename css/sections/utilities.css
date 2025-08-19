@@ -46,6 +46,10 @@
     text-align: center;
 }
 
+.text-spacing-1 {
+    letter-spacing: 2px;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -186,4 +190,25 @@
 
 .p-5 {
     padding: 4rem;
+}
+
+/* Text Sizes */
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size: 4rem;
 }
