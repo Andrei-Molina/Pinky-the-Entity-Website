@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
 /* other css file imports */
-@import url("sections/header.css");
-@import url("sections/showcase.css");
-@import url("sections/utilities.css");
-@import url("sections/features.css");
-@import url("sections/characters.css");
+@import url("./sections/header.css");
+@import url("./sections/showcase.css");
+@import url("./sections/utilities.css");
+@import url("./sections/features.css");
+@import url("./sections/characters.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
