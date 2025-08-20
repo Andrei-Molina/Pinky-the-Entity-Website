@@ -1,0 +1,36 @@
+.story-hero, #main-story-1, #main-story-2 {
+    background: url('/Background Pixel Art.png') center/cover no-repeat;
+    color: #fff;
+    padding: 80px 20px 120px 20px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 24px;
+}
+
+.story-hero-content {
+    background: rgba(0,0,0,0.5);
+    border-radius: 16px;
+    width: 320px;  
+    height: 220px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 16px;
+    margin: 0;              
+    text-align: center;
+}
+
+.main-story-content {
+    background: rgba(0,0,0,0.5);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    text-align: justify;
+}

@@ -24,6 +24,41 @@
     color: #fff;
 }
 
+.characters .green {
+    background-color: var(--green-700);
+    color: #fff;
+}
+
+.characters .amber {
+    background-color: var(--amber-700);
+    color: #fff;
+}
+
+.characters .guu {
+    background-color: var(--orange-700);
+    color: #fff;
+}
+
+.characters .lu {
+    background-color: var(--rose-700);
+    color: #fff;
+}
+
+.characters .rath {
+    background-color: var(--red-700);
+    color: #fff;
+}
+
+.characters .aergia {
+    background-color: var(--sky-700);
+    color: #fff;
+}
+
+.characters .vania {
+    background-color: var(--purple-700);
+    color: #fff;
+}
+
 .characters .hidden {
     display: none;
 }

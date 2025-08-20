@@ -6,6 +6,8 @@
 @import url("./sections/utilities.css");
 @import url("./sections/features.css");
 @import url("./sections/characters.css");
+@import url("./sections/contact.css");
+@import url("./sections/story.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -42,6 +44,13 @@
   --blue-950: #172554;
 
   --stone-700: #44403c;
+  --green-700: #15803d;
+  --amber-700: #b45309;
+  --orange-700: #c2410c;
+  --red-700: #b91c1c;
+  --sky-700: #0369a1;
+  --rose-700: #be123c;
+  --purple-700: #7e22ce;
 
   --color-white: #fff;
   --color-creamson: #fff0de;

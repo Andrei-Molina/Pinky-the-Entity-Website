@@ -91,6 +91,30 @@
     margin: 4rem 0;
 }
 
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 1.5rem;
+}
+
+.mt-3 {
+    margin-top: 2rem;
+}
+
+.mt-4 {
+    margin-top: 3rem;
+}
+
+.mt-5 {
+    margin-top: 4rem;
+}
+
+.mt-6 {
+    margin-top: 8rem;
+}
+
 .mx-1 {
     margin: 0 1rem;
 }
@@ -211,4 +235,17 @@
 
 .xl {
     font-size: 4rem;
+}
+
+.bg-dark {
+    background-color: var(--pink-900);
+}
+
+.footer .social .a {
+    margin: 0 10px;
+}
+
+.footer,
+.bg-dark a {
+    color: #fff;
 }

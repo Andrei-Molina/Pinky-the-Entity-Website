@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="/pinky.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <title>Pinky the Entity</title>
 </head>
@@ -18,7 +19,6 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="story.html">Story</a></li>
           <li><a href="characters.html">Characters</a></li>
-          <li><a href="News.html">News & Updates</a></li>
           <li><a href="Contact-Us.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -30,10 +30,9 @@
     <div class="holder">
       <button class="btn btn-primary m-1">The Main Cast</button>
       <button class="btn btn-primary m-1">The Villains</button>
-      <button class="btn btn-primary m-1">The Chaos</button>
 
       <!--Main Cast-->
-      <div class="character-group" id="main-cast-group">
+      <div class="character-group my-2" id="main-cast-group">
         <input type="radio" name="main-cast" id="main1" checked>
         <input type="radio" name="main-cast" id="main2">
         <input type="radio" name="main-cast" id="main3">
@@ -99,7 +98,22 @@
 
             <div class="card robotri main-cast-card flex">
               <div class="name lg text-spacing-1"><h3>Robotri the Robot</h3></div>
-              <div class="description lead m-2"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+              <div class="description lead m-2">
+                <p>
+                  <em>Robotri the Robo</em> was born of cosmic craftsmanship, yet condemned as a failure. Cast adrift 
+                  into the endless void, he wandered for millennia—silent, broken, and forgotten among the stars. 
+                </p>
+                <p>
+                  When Pinky found him in a barren wasteland, Robotri was little more than a husk. Only through 
+                  Pinky’s mysterious power did his fading spark flicker back to life, though many of his parts remain 
+                  shattered and incomplete. 
+                </p>
+                <p>
+                  Haunted by rejection and the emptiness of his long exile, Robotri follows Pinky with quiet resolve— 
+                  not out of duty alone, but in the faint hope that their journey may reveal the purpose he was never 
+                  meant to have. 
+                </p>
+              </div>
               <img src="robotri1.png" alt="Robotri the Robot">
             </div>
             
@@ -113,7 +127,7 @@
       </div>
 
       <!--Villains Group-->
-      <div class="character-group" id="villains-group">
+      <div class="character-group my-2" id="villains-group">
         <input type="radio" name="villains" id="villain1" checked>
         <input type="radio" name="villains" id="villain2">
         <input type="radio" name="villains" id="villain3">
@@ -123,57 +137,153 @@
         <input type="radio" name="villains" id="villain7">
 
         <div class="character-cards">
-          <div class="card pinky villains-card">
-              <div class="name lg"><h3>Green: The Envy</h3></div>
-              <div class="description lead">
-              <p>
-                The main character of <em>Pinky The Entity</em>, Pinky is a curious and adventurous slimian from the planet Slimoroid. 
-                Small in size but full of determination, he has the ability to stretch, bounce, and shift his form in ways that help him survive dangerous worlds. 
-              </p>
-              <p>
-                Despite his cheerful appearance, Pinky is no ordinary slime—he carries a mysterious energy within him, one that attracts both powerful allies and relentless enemies. 
-                On his journey, Pinky seeks not only to explore strange lands but also to uncover the truth behind his origins and the secret of the “Entity” that dwells inside him. 
-              </p>
-              <p>
-                Brave, mischievous, and endlessly resilient, Pinky is the heart of the adventure—whether leaping across platforms, outsmarting rivals, or protecting those he cares about. 
-              </p></div> 
+          <div class="card green villains-card flex">
+              <div class="name lg text-spacing-1"><h3>Green: The Envy</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  Born from a fragment of Pinky’s soul during the cataclysm of the <em>Arbitral of the Court of Cosmic 
+                  Divergence</em>, <em>Green: The Envy</em> is both a reflection of Pinky and his twisted opposite. 
+                  He embodies the restless hunger of envy, always yearning for what others have and never content with 
+                  his own form. 
+                </p>
+                <p>
+                  His power is as dangerous as it is insidious—he can mimic the abilities of those he faces, or twist 
+                  their hearts with envy until allies turn bitter and foes grow reckless. Yet the more Pinky grows, 
+                  the more Green feeds, drawing strength from what was once his other half. 
+                </p>
+                <p>
+                  Jealous, cunning, and unyielding, Green is a constant shadow to Pinky’s light—a reminder that even 
+                  the brightest soul carries darkness within. 
+                </p>
+              </div> 
               <img src="Green.png" alt="Green The Envy">       
             </div>
             
-            <div class="card eye villains-card">
-              <div class="name lg"><h3>The All-Seeing Eye</h3></div>
-              <img src="all-seeing-eye.png" alt="The All-Seeing Eye">
-              <div class="description lead"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+            <div class="card amber villains-card flex">
+              <div class="name lg text-spacing-1"><h3>The Amber: Greed</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  One of the first fragments torn from Pinky’s soul, <em>Amber: The Greed</em> embodies the insatiable 
+                  urge to take and never let go. What began as Pinky’s desire to hold on to what he loved became twisted 
+                  into obsession—an endless craving to claim all things for himself. 
+                </p>
+                <p>
+                  His power thrives on possession. Amber can drain the strength of others, stealing abilities and 
+                  hoarding them within his core. Every victory, every treasure, every ounce of power he gathers is 
+                  guarded jealously, as though the very act of owning defines his existence. 
+                </p>
+                <p>
+                  Covetous, manipulative, and unrelenting, Amber stands as a shadow of Pinky’s soul—a collector who 
+                  will never be satisfied, no matter how much he takes. 
+                </p>
+              </div>
+              <img src="amber.png" alt="Amber: The Greed">
             </div>
 
-            <div class="card goblee villains-card">
-              <div class="name lg"><h3>Goblee the Goblin</h3></div>
-              <img src="pinky.png" alt="Pinky The Entity">
-              <div class="description lead"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+            <div class="card guu villains-card flex">
+              <div class="name lg text-spacing-1"><h3>Guu Lutonny</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  Born from one of the lesser shards of Pinky’s soul, <em>Guu Lutonny</em> is the embodiment of 
+                  gluttony. Unlike his stronger counterparts, he carries no desire for conquest or rivalry—only the 
+                  endless urge to eat, to consume, and to fill the emptiness within. 
+                </p>
+                <p>
+                  Though weak in power and timid in nature, his hunger itself is relentless. Guu can absorb almost 
+                  anything he devours, breaking it down to sustain himself or twisting it into strange bursts of 
+                  strength. Yet his satisfaction never lasts, for the moment his mouth is empty, the craving returns. 
+                </p>
+                <p>
+                  Simple, harmless, and ever-hungry, Guu Lutonny is a 
+                  proof that even small desires can grow into endless voids if left unchecked. 
+                </p>
+              </div>
+              <img src="Guu.png" alt="Guu Lutonny">
             </div>
 
-            <div class="card villains-card">
-              <div class="name xl"><h3 class="text-center">Pinky The Entity</h3></div>
-              <img src="pinky.png" alt="Pinky The Entity">
-              <div class="description lead"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+            <div class="card lu villains-card flex">
+              <div class="name lg text-spacing-1"><h3>Lust Arcadia</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  Once counted among the most notorious fragments of Pinky’s soul, <em>Lust Arcadia</em> has vanished 
+                  without a trace. The other fragments speak of him with awe, recalling a figure whose presence was as 
+                  commanding as it was unsettling. His absence lingers like a shadow, driving the rest to search for 
+                  him relentlessly. 
+                </p>
+                <p>
+                  Lust Arcadia’s form bears a striking resemblance to Pinky, his body glowing with the same vibrant 
+                  pink. This likeness led many to mistake Pinky for him, until battle revealed the truth. Where Pinky 
+                  carries innocence, Arcadia carries desire, a force that bends and binds those who fall under its sway. 
+                </p>
+                <p>
+                  Alluring, dangerous, and unseen, Lust Arcadia remains a mystery. Whether his return will unite or 
+                  destroy the fragments is a question none can answer. 
+                </p>
+              </div>
+              <img src="Missing.png" alt="Lust Arcadia: Missing">
             </div>
 
-            <div class="card villains-card">
-              <div class="name lg"><h3>Pinky The Entity</h3></div>
-              <img src="pinky.png" alt="Pinky The Entity">
-              <div class="description lead"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+            <div class="card rath villains-card flex">
+              <div class="name lg text-spacing-1"><h3>Rath</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  Among the most feared fragments of Pinky’s soul, <em>Rath</em> is the living embodiment of rage. 
+                  Always seething, always on the edge of eruption, he believes that every problem can be crushed with 
+                  force. His wrath is unending, and his fists have shaped both ruin and resolution. 
+                </p>
+                <p>
+                  In one legendary outburst, his overwhelming power shattered two rival kingdoms into submission, 
+                  forcing them into peace through sheer fear. Yet beneath the chaos lies a fierce code—Rath holds deep 
+                  respect for Lust Arcadia, and any insult toward the missing fragment is enough to awaken his fury. 
+                </p>
+                <p>
+                  Unstoppable, volatile, and brutally honest, Rath stands as one of the top ten forces in cosmic space 
+                  you do not want to provoke. 
+                </p>
+              </div>
+              <img src="rath.png" alt="Rath">
             </div>
 
-            <div class="card villains-card">
-              <div class="name lg"><h3>Pinky The Entity</h3></div>
-              <img src="pinky.png" alt="Pinky The Entity">
-              <div class="description lead"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+            <div class="card aergia villains-card flex">
+              <div class="name lg text-spacing-1"><h3>Aergia: The Idle</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  Among the strangest fragments of Pinky’s soul, <em>Aergia: The Idle</em> was bestowed with the power 
+                  to remain still and yet endure. Though capable of immense strength, he hides it behind endless slumber, 
+                  choosing to live in quiet idleness rather than reveal the force he possesses. 
+                </p>
+                <p>
+                  Known as one of the strongest entities in cosmic space, Aergia’s days are spent drifting into sleep, 
+                  whether beneath a tree, within a cavern, or even in the heart of a volcano. His apathy shields him 
+                  from conflict, for he simply does not care to move unless disturbed. 
+                </p>
+                <p>
+                  Only one thing can rouse him from his lethargy: the insult of Lust Arcadia’s name. To speak ill of 
+                  Arcadia is to awaken Aergia’s fury, a rare event feared across the stars. 
+                </p>
+              </div>
+              <img src="aergia.png" alt="Aergia: The Idle">
             </div>
             
-            <div class="card villains-card">
-              <div class="name lg"><h3>Pinky The Entity</h3></div>
-              <img src="pinky.png" alt="Pinky The Entity">
-              <div class="description lead"><p>The Main Character of the game Pinky The Entity. He is a slimian from the planet Slimoroid.</p></div>
+            <div class="card vania villains-card flex">
+              <div class="name lg text-spacing-1"><h3>Vania The Prideful</h3></div>
+              <div class="description lead m-2">
+                <p>
+                  Among the most regal of Pinky’s fragments, <em>Vania: The Prideful</em> carries himself as though he 
+                  were a king stripped of his throne. Noble in bearing yet dangerous in nature, he believes his rightful 
+                  place is above all others, and his pride will not allow him to bow before anyone. 
+                </p>
+                <p>
+                  His strength rises with his conviction, each battle feeding his belief that he alone was destined to 
+                  rule. Though many have sought to humble him, none have succeeded, for his will hardens in the face of 
+                  challenge and his pride becomes an unbreakable shield. 
+                </p>
+                <p>
+                  Majestic, relentless, and untamed, Vania remains a towering force among the fragments—a fallen king 
+                  who refuses to accept his fall, and whose pride may yet shake the stars. 
+                </p>
+              </div>
+              <img src="vania.png" alt="Vania The Prideful">
             </div>
         </div>
         <div class="controls">
@@ -185,9 +295,35 @@
           <label for="villain6"></label>
           <label for="villain7"></label>
         </div>
+    
       </div>
     </div>
   </section>
+
+
+  <!--Footer-->
+  <footer class="footer bg-dark py-2">
+    <div class="container grid grid-3">
+      <div>
+        <h1>Pinky The Entity</h1>
+        <p>Copyright &copy; 2025</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="Contact-Us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
 
 <script src="js/script.js" type="module"></script>
 

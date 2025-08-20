@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="/pinky.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <title>Pinky the Entity</title>
 </head>
@@ -18,50 +19,149 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="story.html">Story</a></li>
           <li><a href="characters.html">Characters</a></li>
-          <li><a href="News.html">News & Updates</a></li>
           <li><a href="Contact-Us.html">Contact Us</a></li>
         </ul>
       </nav>
     </div>
   </div>
 
-  <!--Showcase-->
-  <section class="showcase">
-    <div class="container grid">
-      <div class="showcase-text">
-        <h1>Become a Beta Tester!</h1>
-        <p>Leap into Pinky's world of platforms and adventures. Fill out the form to try a demo of
-          our application.
-        </p>
-        <a href="features.html" class="btn btn-outline">Read More</a>
-      </div>
+  <!--Chapter Selection-->
+  <section class="story-hero" id="chapter-selection">
+    <div class="story-hero-content m-2 p-2 prologue">
+      <h3>Prologue: The Cosmic Divergence</h3>
+      <p class="tagline"><em>When power defies order, the gods choose to divide.</em></p>
+      <a href="#main-story-1" class="btn btn-primary">Start Reading</a>
+    </div>
 
-      <div class="showcase-image">
-        <img src="pinky2.gif">
-      </div>
+    <div class="story-hero-content m-2 p-2 c1">
+      <h3>Chapter I: Awakening in Still Fields</h3>
+      <p class="tagline"><em>A forgotten being stirs beneath the quiet sky.</em></p>
+      <a href="#main-story-2" class="btn btn-primary">Start Reading</a>
+    </div>
 
-      <div class="showcase-form card">
-        <h2>Request a Demo</h2>
-        <form>
-          <div class="form-control">
-            <input type="text" name="name" placeholder="Name" required>
-          </div>
-          <div class="form-control">
-            <input type="text" name="company" placeholder="Company Name" required>
-          </div>
-          <div class="form-control">
-            <input type="email" name="email" placeholder="Email" required>
-          </div>
-          <input type="submit" class="btn btn-primary">
-        </form>
-      </div>
+    <div class="story-hero-content m-2 p-2 c2">
+      <h3>Chapter II: The Plains of Envy</h3>
+      <p class="tagline"><em>In the land of envy, even freedom is poisoned green.</em></p>
+      <a href="#main-story-3" class="btn btn-primary">Start Reading</a>
+    </div>
 
-      <div class="showcase-image">
-      </div>
+    <div class="story-hero-content m-2 p-2 c3">
+      <h3>Chapter III: The Gears of Robotri</h3>
+      <p class="tagline"><em>Cold steel grinds against the will of flesh.</em></p>
+      <a href="#main-story-4" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter IV: The Glutton's Den</h3>
+      <p class="tagline"><em>In endless hunger lies a void that devours all.</em></p>
+      <a href="#main-story-5" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter V: Wrath's Scorched Arena</h3>
+      <p class="tagline"><em>Only strength speaks in the language of rage.</em></p>
+      <a href="#main-story-6" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter VI: Slumber of Aergia</h3>
+      <p class="tagline"><em>Even the idle awaken when pride is wounded.</em></p>
+      <a href="#main-story-7" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter VII: The Pride of Vania</h3>
+      <p class="tagline"><em>A fallen king still stands taller than most.</em></p>
+      <a href="#main-story-8" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter VIII: The Sect Unleashed</h3>
+      <p class="tagline"><em>When faith burns too bright, even zealots become fire.</em></p>
+      <a href="#main-story-9" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter IX: The Allure of Lust Arcadia</h3>
+      <p class="tagline"><em>To desire is to be bound by what you seek.</em></p>
+      <a href="#main-story-10" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Chapter X: The Puppet's Strings</h3>
+      <p class="tagline"><em>The hand that guides may also choke.</em></p>
+      <a href="#main-story-11" class="btn btn-primary">Start Reading</a>
+    </div>
+
+    <div class="story-hero-content m-2 p-2 c4">
+      <h3>Final Chapter: The One Who Sees All</h3>
+      <p class="tagline"><em>Knowledge without limit is a cage without escape.</em></p>
+      <a href="#main-story-12" class="btn btn-primary">Start Reading</a>
     </div>
   </section>
 
-<script src="js/script.js" type="module"></script>
+  <!--Main Story-->
+  <section id="main-story-1" class="main-story" style="display: none;">
+    <a href="#chapter-selection" class="btn btn-primary m-2">Chapter Selection</a>
+    <div class="container main-story-content">
+      <h2 class="main-story-title">Prologue: The Cosmic Divergence</h2>
+      <p class="main-story-text">
+        In a realm where the gods once ruled with absolute power, a being known as Pinky emerged from the cosmic chaos. Born from the remnants of divine conflict, Pinky was neither god nor mortal, but something entirely different—a force of nature that defied the very fabric of reality.
+      </p>
+      <p class="main-story-text">
+        As Pinky traversed the universe, it encountered various realms, each shaped by the emotions and desires of their inhabitants. From the serene Still Fields to the tumultuous Plains of Envy, Pinky's journey was marked by encounters with beings who embodied the seven deadly sins.
+      </p>
+      <p class="main-story-text">
+        Each chapter of Pinky's story reveals a new aspect of existence, exploring themes of power, freedom, and the consequences of unchecked ambition. Through trials and tribulations, Pinky learns that true strength lies not in domination but in understanding and compassion.
+      </p>
+      <p class="main-story-text">
+        The final chapter culminates in a confrontation with the gods themselves, where Pinky must choose between vengeance and redemption. In a world where knowledge is both a gift and a curse, Pinky's ultimate decision will shape the fate of all realms.
+      </p>
+    </div>
+  </section>
+  <section id="main-story-2" class="main-story" style="display: none;">
+    <a href="#chapter-selection" class="btn btn-primary m-2">Chapter Selection</a>
+    <div class="container main-story-content">
+      <h2 class="main-story-title">Chapter I: Awakening in Still Fields</h2>
+      <p class="main-story-text">
+        In a realm where the gods once ruled with absolute power, a being known as Pinky emerged from the cosmic chaos. Born from the remnants of divine conflict, Pinky was neither god nor mortal, but something entirely different—a force of nature that defied the very fabric of reality.
+      </p>
+      <p class="main-story-text">
+        As Pinky traversed the universe, it encountered various realms, each shaped by the emotions and desires of their inhabitants. From the serene Still Fields to the tumultuous Plains of Envy, Pinky's journey was marked by encounters with beings who embodied the seven deadly sins.
+      </p>
+      <p class="main-story-text">
+        Each chapter of Pinky's story reveals a new aspect of existence, exploring themes of power, freedom, and the consequences of unchecked ambition. Through trials and tribulations, Pinky learns that true strength lies not in domination but in understanding and compassion.
+      </p>
+      <p class="main-story-text">
+        The final chapter culminates in a confrontation with the gods themselves, where Pinky must choose between vengeance and redemption. In a world where knowledge is both a gift and a curse, Pinky's ultimate decision will shape the fate of all realms.
+      </p>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer bg-dark py-2">
+    <div class="container grid grid-3">
+      <div>
+        <h1>Pinky The Entity</h1>
+        <p>Copyright &copy; 2025</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="Contact-Us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+<script src="js/story.js" type="module"></script>
 
 </body>
 </html>

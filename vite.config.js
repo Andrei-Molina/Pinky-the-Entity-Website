@@ -8,6 +8,7 @@ export default defineConfig({
         main: resolve(__dirname, "index.html"),
         story: resolve(__dirname, "story.html"),
         characters: resolve(__dirname, "characters.html"),
+        contact: resolve(__dirname, "contact-us.html"),
       }
     }
   }
