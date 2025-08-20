@@ -46,6 +46,10 @@
     text-align: center;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .text-spacing-1 {
     letter-spacing: 2px;
 }
